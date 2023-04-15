@@ -24,7 +24,7 @@ test('Verificar acceso a Mi Perfil', async ({ page }) => {
   await page.getByRole('heading', { name: 'Métodos de pago' }).click();
 });
 
-test('Verificar acceso a Mis edidos', async ({ page }) => {
+test('Verificar acceso a Mis pedidos', async ({ page }) => {
   await page.getByRole('button', { name: 'Mis pedidos' }).click();
 });
 
